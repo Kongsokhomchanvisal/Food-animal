@@ -1,0 +1,139 @@
+body {
+    background-color: cornflowerblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.banner {
+    height: 300px;
+
+    background-image: url('images/zooboo/zoo-banner.jpeg');
+    background-size: cover;
+
+}
+
+.nav {
+    background-color: darkblue;
+}
+
+.nav ul {
+    list-style-type: none;
+}
+
+.nav ul li {
+    display: inline-block;
+    width: 17.5%;
+    height: 50px;
+    background-color: blueviolet;
+    margin: 10px;
+    padding-top: 12px;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: beige;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nav ul li:hover {
+    background-color: darkblue;
+}
+
+.nav ul li a:hover {
+    background-color: cyan;
+}
+
+
+.amphibian {
+    background-color: blue;
+}
+
+.amphibian ul li {
+    text-align: left;
+    list-style-type: square;
+}
+
+.bird_card {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 2px solid white;
+
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.bird_card:hover {
+    background-color: bisque;
+}
+
+.bird_card img {
+    width: 100%;
+}
+
+.fish_card {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 2px solid white;
+
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.fish_card:hover {
+    background-color: bisque;
+}
+
+.fish_card img {
+    width: 100%;
+}
+
+.mammal_card {
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    border: 2px solid white;
+
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+}
+
+.mammal_card:hover {
+    background-color: bisque;
+}
+
+.mammal_card img {
+    width: 100%;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid white;
+}
+
+.coll {
+    width:60%
+}
+
+.col2 {
+    width: 40%;
+}
+
+table tr td img {
+    width: 100%;
+}
+
+table tr:hover {
+    background-color: brown;
+}
